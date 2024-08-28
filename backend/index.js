@@ -13,7 +13,7 @@ dotenv.config({});
 const app = express();
 
 const corsOptions = {
-    origin: '*',  // Allow any origin
+    origin: 'https://job-portal-frontend-blond.vercel.app',  // Allow any origin
     credentials: true  // Allow credentials (cookies, HTTP auth)
 };
 
