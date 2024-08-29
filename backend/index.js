@@ -14,9 +14,9 @@ const app = express();
 
 const corsOptions = {
     origin: 'https://job-portal-frontend-blond.vercel.app', // Corrected origin without trailing slash
-    credentials: true,  // Allow credentials (cookies, HTTP auth)
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],  // Specify allowed methods
-    allowedHeaders: ['Content-Type', 'Authorization'],  // Specify allowed headers
+    // credentials: true,  // Allow credentials (cookies, HTTP auth)
+    // methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],  // Specify allowed methods
+    // allowedHeaders: ['Content-Type', 'Authorization'],  // Specify allowed headers
 };
 
 app.use(cors(corsOptions));
