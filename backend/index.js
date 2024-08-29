@@ -11,15 +11,9 @@ import applicationRoute from "./routes/application.route.js";
 dotenv.config({});
 
 const app = express();
-const allowedOrigins = [
-    'https://job-portal-frontend-blond.vercel.app',
-    'https://job-portal-frontend-blond.vercel.app/api/v1/user',
-    'https://job-portal-frontend-blond.vercel.app/api/v1/job',
-    'https://job-portal-frontend-blond.vercel.app/api/v1/application',
-    'https://job-portal-frontend-blond.vercel.app/api/v1/company'
-];
+
 const corsOptions = {
-    origin: allowedOrigins,  // Allow any origin
+    origin: 'https://job-portal-complete.vercel.app/',  // Allow any origin
     credentials: true  // Allow credentials (cookies, HTTP auth)
 };
 
