@@ -1,8 +1,8 @@
-export const USER_API_END_POINT = "https://job-portal-backend-sandy.vercel.app/api/v1/user";
-export const JOB_API_END_POINT = "https://job-portal-backend-sandy.vercel.app/api/v1/job";
+export const USER_API_END_POINT = "https://job-new-backend.onrender.com/api/v1/user";
+export const JOB_API_END_POINT = "https://job-new-backend.onrender.com/api/v1/job";
 export const APPLICATION_API_END_POINT =
-  "https://job-portal-backend-sandy.vercel.app/api/v1/application";
-export const COMPANY_API_END_POINT = "https://job-portal-backend-sandy.vercel.app/api/v1/company";
+  "https://job-new-backend.onrender.com/api/v1/application";
+export const COMPANY_API_END_POINT = "https://job-new-backend.onrender.com/api/v1/company";
 
 export const defaultJobData = [
   {
